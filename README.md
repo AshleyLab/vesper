@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="1020" alt="Image" src="https://github.com/user-attachments/assets/bafe62ab-a82d-4bcb-b5fa-2a77c7adf7a6" />
+  <img width="1111" alt="Image" src="https://github.com/user-attachments/assets/c97fe22d-f5f3-4f2d-a6fc-a93669f5ccf4" />
 </p>
 
 Variant Evaluation through SAM Profiling and Ensembl's Readouts
@@ -41,7 +41,7 @@ VESPER is a variant interpretation pipeline that profiles each read of input SAM
     ```
     vim minigene_config.yaml
    
-   # press 'i' to edit and make changes; when done, press 'esc', ':wq' and hit 'enter'
+   # press 'i' to edit and make changes; when done, press 'esc', ':wq' and hit 'enter' to save and exit
    ```
     
     Option 2: edit locally on your preferred text editor
