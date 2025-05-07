@@ -1,0 +1,63 @@
+# max number of CPU cores available #
+max_workers: 8
+
+# path to sam files #
+input_sam_dir: "/oak/stanford/groups/euan/projects/kaiser/RBM20/data/sam_all_replicates_RBM20ex9ex11/RBM20ex9ex11_all/exon9"
+
+# path to the directory for all output files #
+root_output_dir: "/oak/stanford/groups/euan/projects/kaiser/RBM20/RBM20_Ex9_VEP_analysis_v1"
+
+# input file that contains bp, cDNA position, a.a. consequence, reference of exons #
+cDNA_file: "/oak/stanford/groups/euan/projects/kaiser/RBM20/data/exon9_exon11_combined.csv"
+
+# Path to Ensembl's vep.sif #
+vep_path: "/oak/stanford/groups/euan/projects/variant_effect_mapping/tools/ensembl-vep/vep.sif"
+
+# start and end positions of region of interest #
+start_bp: 167943
+end_bp: 168143
+
+# minimum base quality in SAM file #
+baseq_threshold: 30
+
+# minimum map quality of a read in SAM file #
+mapq_threshold: 30
+
+# the minimum frequency each variant has to be present to be considered a "real" variant (based on sequencing error) #                     
+seq_error: 0.0001
+
+# names of samples/ phenotype (iPSC, A, B, C) #
+sample_names:
+  - iPSC
+  - A
+  - B
+  - C
+
+# length of sequenced amplicon #
+read_length_filter: 151
+
+# exon number #
+exon_number: 9
+
+# gencode transcript of gene of interest #
+transcript: "ENST00000369519.4:c."
+
+# comp1: iPSC_vs_B+C, comp2: A_vs_B+C, comp3: C_vs_B, comp4: iPSC+A_vs_B+C #
+sample_combinations:
+  - group1: ['iPSC_']
+    group2: ['B_', 'C_']
+    group1_label: 'iPSC'
+    group2_label: 'B+C'
+  - group1: ['A_']
+    group2: ['B_', 'C_']
+    group1_label: 'A'
+    group2_label: 'B+C'
+  - group1: ['C_']
+    group2: ['B_']
+    group1_label: 'C'
+    group2_label: 'B'
+  - group1: ['iPSC_', 'A_']
+    group2: ['B_', 'C_']
+    group1_label: 'iPSC+A'
+    group2_label: 'B+C'
+
