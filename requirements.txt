@@ -54,7 +54,7 @@ Paralleltask==0.2.3
 parso==0.8.4
 pexpect==4.9.0
 pickleshare==0.7.5
-pillow==10.2.0
+pillow==10.3.0
 pipx==1.1.0
 platformdirs==2.5.2
 plotly==5.19.0
