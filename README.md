@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="1111" alt="Image" src="https://github.com/user-attachments/assets/c97fe22d-f5f3-4f2d-a6fc-a93669f5ccf4" />
+  <img width="717" alt="Image" src="https://github.com/user-attachments/assets/c97fe22d-f5f3-4f2d-a6fc-a93669f5ccf4" />
 </p>
 
 Variant Evaluation through SAM Profiling and Ensembl's Readouts
