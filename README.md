@@ -2,7 +2,6 @@
   <img width="717" alt="Image" src="https://github.com/user-attachments/assets/c97fe22d-f5f3-4f2d-a6fc-a93669f5ccf4" />
 </p>
 
-Variant Evaluation through SAM Profiling and Ensembl's Readouts
 
 ## Overview
 VESPER is a variant interpretation pipeline that profiles each read of input SAM files to identify single nucleotide polymorphisms (SNPs) using the alignment's CS tag. It classifies detected variants on a per-read basis as single-nucleotide variants (SNVs), multi-nucleotide variants (MNVs), or a combination of both. These variants are then reformatted to follow HGVS nomenclature before utilising Ensembl's Variant Effect Predictor (VEP) to assess the functional consequences and potential pathogenicity of each variant, with particular emphasis on their implications in Dilated Cardiomyopathy. VESPER also includes downstream analyses to compare variant frequencies across different cell populations, elucidating population-specific variant distributions. High level architecture of the workflow is as shown in the schematic below.
