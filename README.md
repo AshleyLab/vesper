@@ -38,7 +38,7 @@ VESPER is a variant interpretation pipeline that profiles each read of input SAM
 
     Option 1: use vim directly in terminal to edit
     ```
-    vim minigene_config.yaml
+    vim vesper_config.yaml
    
    # press 'i' to edit and make changes; when done, press 'esc', ':wq' and hit 'enter' to save and exit
    ```
