@@ -52,9 +52,9 @@ samples_to_analyse = config["samples_to_analyse"]
 mpileup_file = config["mpileup_file_path"]
 
 ### Define output directories ###
-unzipped_sam_dir = os.path.join(root_output_dir, f'Ex{ex}_unzipped_sam')                                    ### to be deleted ###
-filtered_sam_unzipped_dir = os.path.join(root_output_dir, f'Ex{ex}_unzipped_filtered_sam')                  ### to be deleted ###
-filtered_sam_gzipped_dir = os.path.join(root_output_dir, f'Ex{ex}_filtered_sam_gz')                         ### final filtered SAM files to be processed further ###
+unzipped_sam_dir = os.path.join(root_output_dir, f'Ex{ex}_unzipped_sam')                                
+filtered_sam_unzipped_dir = os.path.join(root_output_dir, f'Ex{ex}_unzipped_filtered_sam')                
+filtered_sam_gzipped_dir = os.path.join(root_output_dir, f'Ex{ex}_filtered_sam_gz')                  
 
 sample_variants_dir = os.path.join(root_output_dir, 'sample_rep_raw')                             
 variants_per_rep_dir = os.path.join(root_output_dir, 'variants_per_rep')                     
