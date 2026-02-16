@@ -26,7 +26,7 @@ mapq_threshold: 30
 # the minimum frequency each variant has to be present to be considered a "real" variant (based on sequencing error) #                     
 seq_error: 0.0001
 
-# names of samples/ phenotype (iPSC, A, B, C) #
+# names of samples/ phenotype (iPSC, B, C) #
 sample_names:
   - iPSC
   - A
