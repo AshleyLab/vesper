@@ -5,7 +5,7 @@ max_workers: 8
 input_sam_dir: "/oak/stanford/groups/euan/projects/kaiser/RBM20/data/sam_all_replicates_RBM20ex9ex11/RBM20ex9ex11_all/exon9"
 
 # path to the directory for all output files #
-root_output_dir: "/oak/stanford/groups/euan/projects/kaiser/RBM20/RBM20_Ex9_VEP_analysis"
+root_output_dir: "/Users/kaiser19/Documents/RBM20/CX_debug_19Jan2026_MAF_iPSC_BC/Exon9"
 
 # input file that contains bp, cDNA position, a.a. consequence, reference of exons #
 cDNA_file: "/oak/stanford/groups/euan/projects/kaiser/RBM20/data/exon9_exon11_combined.csv"
