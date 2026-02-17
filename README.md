@@ -20,7 +20,7 @@ VESPER is a variant interpretation pipeline that profiles each read of input SAM
 #### Installation of Vesper
 1. Navigate into directory where vesper is to be  installed in
    ```
-   wget vesper link (to be finalised)
+   wget https://github.com/AshleyLab/vesper/archive/refs/tags/vesper_v1.0.tar.gz
    tar -xvzf vesper.tar.gz
 #### Set Up Vespers's Environment
 2. Navigate into vesper directory
