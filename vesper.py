@@ -1037,20 +1037,6 @@ def combine_snv_pair_stats(sample_paired_dir):
     lone_travelling_vars.to_csv(lone_travelling_csv, index=False)
 
 
-def main():
-    cdna_variants_per_sample(sample_variants_dir)
-    count_snvs(sample_variants_dir, sample_snv_counts_dir)
-    merge_vep_mpileup(mpileup_file, sample_snv_counts_dir, vep_mpileup_merged_dir)
-    get_variant_pairs(sample_variants_dir, sample_SNV_pairs_dir)
-    annotated_files = annotate_snv_pairs(sample_SNV_pairs_dir, sample_snv_counts_dir)
-    calculate_mpileup_counts(mpileup_file, sample_SNV_pairs_dir)
-    remove_files(sample_SNV_pairs_dir)
-    combined_df = combine_snv_pair_stats(sample_SNV_pairs_dir)
-
-if __name__ == "__main__":
-    main()
-
-
 
 def main():
     start_time = time.time()
